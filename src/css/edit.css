@@ -1,0 +1,509 @@
+#languages-select {
+    display: flex;
+    flex-direction: row;
+    margin-top: 0;
+    flex-wrap: wrap;
+    margin-bottom: 1.5rem;
+}
+
+#languages-select .select {
+    margin-bottom: 0.8rem;
+}
+
+#languages_add_submit {
+    margin-bottom: auto;
+    margin-top: 0;
+    margin-left: 0.8rem;
+}
+
+.edit-delete {
+    display: inline-block;
+}
+
+.button:not(.button_save):not(.button_edit) {
+    margin-left: 0.8rem;
+}
+
+.edit-delete .button {
+    margin-bottom: auto;
+    margin-top: 0;
+}
+
+.edit-lang-block {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.edit__skills {
+    margin-top: 0 !important;
+}
+
+.edit__skills .field__input {
+    margin-bottom: 0.4rem;
+}
+
+.edit__skills .multiselector__select-block {
+    background: #fff;
+    border-radius: 0.5rem;
+    overflow: hidden;
+}
+
+.edit__skills .multiselector__select-block > div {
+    overflow-x: hidden;
+}
+
+.edit__skills .multiselector__select-block select {
+    padding: 0.5296rem 0.8rem;
+    color: #000;
+    border: none;
+    outline: 0;
+    font: inherit;
+    overflow: unset !important;
+}
+
+.edit__skills .multiselector__select-block select optgroup {
+    font-weight: 800;
+}
+
+.edit__skills .multiselector__select-block > div::-webkit-scrollbar {
+    width: .8rem
+}
+
+.edit__skills .multiselector__select-block > div::-webkit-scrollbar-track {
+    background: #fff
+}
+
+.edit__skills .multiselector__select-block > div::-webkit-scrollbar-thumb {
+    background: rgba(0,0,0,.21);
+    border-radius: 30px;
+    border: 3px solid #fff;
+    box-sizing: border-box
+}
+
+.edit__skills .multiselector__button {
+    border: none;
+    outline: 0;
+    background: #fff;
+    margin: 0.4rem 0.4rem 0;
+    padding: 0.4rem 1.2rem;
+    height: 1.7408rem;
+    width: 3rem;
+    border-radius: calc(1.7408rem / 2);
+    position: relative;
+    cursor: pointer;
+}
+
+.edit__skills .multiselector__button:disabled {
+    cursor: initial;
+    background: #C4C4C4;
+}
+
+.edit__skills .multiselector__button:disabled:after {
+    filter: invert(0.4);
+}
+
+.edit__skills .multiselector__button:after {
+    content: '';
+    display: block;
+    background: url(../images/svg/skills-arrows.svg) no-repeat center;
+    background-size: contain;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    right: 0;
+    transform: translate(-50%,-50%);
+    height: 1.2rem;
+    width: 2rem;
+}
+
+.edit__skills .multiselector__button-reverse:after {
+    transform: translate(-50%,-50%) rotate(180deg);
+}
+
+@media (max-width: 500px) {
+    .edit__skills .multiselector__select-block select {
+        font-size: 1rem;
+    }
+}
+
+.select-items.select-reverse {
+    top: unset;
+    bottom: 0;
+    width: 100%;
+    left: 0;
+    right: 0;
+    padding-top: 0.8rem;
+    padding-bottom: 2.8rem;
+}
+
+.button.calBtn {
+    margin-top: 0;
+    outline: none !important;
+    height: 2.8rem;
+    transform: translateY(-1px);
+}
+
+.button.calBtn img {
+    filter:invert(0.4);
+    vertical-align: baseline;
+}
+
+.button.competences__add,
+#languages_add_submit{
+    height: 2.8rem;
+}
+
+#previous_dates {
+    margin-top: 0;
+}
+
+#previous_dates table,
+#previous_dates table tr,
+#previous_dates table td{
+    float: none;
+}
+
+#previous_dates .calendar {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+}
+
+#previous_dates .calendar-block {
+    display: flex;
+    flex-wrap: nowrap;
+}
+
+#previous_dates .calendar-block .field__value {
+    flex-basis: unset;
+}
+
+.calendar .field__value {
+    display: inline-block;
+}
+
+#previous_dates .control_plus, #previous_dates .control_minus {
+    margin: 0 0.8rem 0.8rem;
+}
+
+.edit__birthday {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.calendar > div,
+.calendar > table {
+    margin-bottom: 0.8rem;
+}
+
+.calendar > :last-of-type(div) {
+    margin-right: 0.8rem;
+}
+
+.control_plus.button {
+    margin: 0 !important;
+}
+
+.edit__birthday .field__input-text {
+    margin-bottom: 0.8rem;
+}
+.edit__birthday .select {
+    margin-right: 0 !important;
+    margin-bottom: 0.8rem;
+}
+
+.edit__birthday .checkbox {
+    flex-basis: 100% !important;
+}
+
+.field__input-text>input[type="button"] {
+    transition: all .2s;
+    background: #000;
+    color: #fff;
+    height: 2.8rem;
+    margin-top: 0.8rem;
+    cursor: pointer;
+}
+
+.field__input-text>input[type="button"]:disabled {
+    background: #e5e5e5;
+    cursor: unset;
+}
+
+.field__value {
+    color: #000;
+}
+
+input {
+    font: inherit;
+}
+
+label.checkbox {
+    cursor: pointer;
+}
+
+.styled-slider.slider-progress {
+    cursor: pointer;
+}
+
+.field__input-label.input-photo-empty {
+    margin: 2rem !important;
+}
+
+.field__input-file img#photo-sm {
+    width: 8rem;
+    height: 8rem;
+    object-fit: cover;
+}
+
+.field__input-file img#photo-lg {
+    object-fit: cover;
+    max-width: 70%;
+}
+
+.field__input-doc .field__input-label {
+    margin: 2rem;
+}
+
+.field__input-file {
+    cursor: pointer;
+}
+
+.field__button {
+    margin-right: 0.8rem;
+}
+
+.radio input:checked~.checkmark {
+    border: none;
+    box-shadow: 0 0 0 1px #3667f6;
+    outline: none;
+    border-radius: 50%;
+}
+
+.button_save__wrapper>div {
+    z-index: 1;
+}
+
+.diploma {
+    margin-top: 1.5rem;
+    clear: unset; float: unset; margin-bottom: unset;
+    width: 100%;
+}
+
+#diplomas {
+    width: unset;
+    flex-direction: column;
+}
+
+@media (max-width: 767px) {
+    .field__input-file img#photo-lg {
+        max-width: calc(100% - 4rem);
+    }
+}
+
+input[type=range].styled-slider {
+    height: 1.7408rem;
+    padding-top: 0;
+    padding-bottom: 0;
+}
+
+.edit-lang-block input[type=range].styled-slider.slider-progress {
+    padding-top: 0.5296rem;
+    padding-bottom: 0.5296rem;
+    height: calc(1.7408rem + 2 * 0.5296rem);
+}
+
+.calBtn {
+    margin-left: 0.8rem;
+}
+
+.edit__birthday > div {
+    display: flex;
+    flex-direction: row;
+}
+
+.edit__birthday > div > div {
+    margin-right: 0.8rem;
+}
+
+.edit__birthday .people__selectors:nth-child(1) .select-selected {
+    width: 3rem;
+}
+
+.edit__birthday .people__selectors:nth-child(2) .select-selected {
+    width: 7rem;
+}
+
+.edit__birthday input[name="birthday_year"] {
+    width: 5rem;
+}
+
+/*.field__input-textarea {*/
+/*    white-space: pre-wrap;*/
+/*}*/
+
+.field__input-textarea {
+    background: #fff;
+    color: #000;
+    width: 100%;
+    border: none;
+    outline: 0;
+    padding: unset;
+    border-radius: 0.5rem;
+    font-size: 1.36rem;
+    line-height: 1.7408rem;
+    min-height: unset;
+}
+
+textarea {
+    width: 100%;
+    padding: 0.5296rem 0.8rem;
+    min-height: 5.2224rem;
+    box-sizing: border-box;
+    border: none;
+    outline: none;
+    font: inherit;
+    background-color: transparent;
+    resize: none;
+}
+
+textarea::-webkit-scrollbar {
+    width: 0.8rem;
+}
+
+textarea::-webkit-scrollbar-track {
+    background: #fff
+}
+
+textarea::-webkit-scrollbar-thumb {
+    background: rgba(0,0,0,.21);
+    border-radius: 30px;
+    border: 3px solid #fff;
+    box-sizing: border-box
+}
+
+.edit-lang-block input[type=range].styled-slider.slider-progress,
+input[type=range].styled-slider.slider-progress {
+    margin-right: 1rem;
+    margin-left: 0.8rem;
+}
+
+#languages_add_submit {
+    /*margin-left: 0;*/
+}
+
+.button_save__wrapper.static > div {
+    top: 0;
+    position: absolute;
+    width: 100%;
+}
+
+.people__selectors>div .select-selected {
+    width: 22rem;
+    overflow: hidden;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+}
+
+.people__selectors>div .select-selected:before {
+    content: '';
+    position: absolute;
+    background: #fff;
+    height: 100%;
+    width: 1.5rem;
+    border-top-right-radius: 0.5rem;
+    border-bottom-right-radius: 0.5rem;
+    right: 0;
+    top: 0;
+}
+
+.select-items-container div {
+    /*white-space: nowrap;*/
+    overflow: hidden;
+    /*min-height: 2.8rem;*/
+    height: unset;
+    padding-top: 0.5296rem;
+    padding-bottom: 0.5296rem;
+    line-height: 1.7408rem;
+}
+
+.people__selectors>div:first-child .select-selected {
+    padding-right: 2rem;
+    width: 22rem;
+}
+
+.select .select-selected {
+    opacity: 1;
+    /*color: transparent;*/
+}
+
+.field__input-file img#photo-sm {
+    flex-shrink: 0;
+}
+
+.field__input-label > span:first-child {
+    font-size: 1.36rem;
+    line-height: 1.7408rem;
+}
+
+#languages-select .select {
+    margin-left: 0;
+}
+
+.edit__profile {
+    padding-bottom: 3rem;
+}
+
+input[name="login"] ~ .error,
+input[name="login"] ~ .valid {
+    font-size: 1.36rem;
+    line-height: 1.7408rem;
+    display: block !important;
+    padding-top: 0.5296rem;
+    padding-bottom: 0.5296rem;
+}
+
+.checkbox-empty {
+    display: none;
+}
+
+.chosen-container-multi .chosen-choices li.search-choice .search-choice-close:hover {
+    border-color: transparent !important;
+}
+
+@media (max-width: 1349px) {
+    .select select {
+        padding-right: 2rem;
+        padding-left: 0.8rem;
+    }
+}
+
+@media (max-width: 767px) {
+    .field__value {
+        margin-left: 0;
+        padding-top: 0;
+    }
+    .field__item {
+        margin-bottom: 1rem;
+    }
+    .field__input-checkbox .checkbox,
+    .radio-input,
+    #languages-select .select,
+    #languages_add_submit,
+    .edit-lang-block input[type=range].styled-slider.slider-progress, input[type=range].styled-slider.slider-progress {
+        margin-left: 0;
+    }
+    .edit__birthday .field__value {
+        padding-top: 0.5296rem;
+        margin-right: 1.2rem;
+    }
+    h2 {
+        margin-bottom: 1.2rem;
+    }
+    .edit__block {
+        margin: 1.2rem 0;
+    }
+    .diploma {
+        margin-top: 1.2rem;
+    }
+}

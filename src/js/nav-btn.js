@@ -1,0 +1,1 @@
+$(function(){$(window).on("scroll",c=>{var n=$(window).scrollTop();n<=54?$(".nav-btn").css("top",`calc(${54-n}px + 2rem)`):$(".nav-btn").css("top","calc(0px + 2rem)")})});

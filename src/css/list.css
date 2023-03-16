@@ -1,0 +1,290 @@
+.people__searchbar .field__input-text>input {
+    width: 100% !important;
+}
+.settings select {
+    text-align-last: right;
+}
+
+.settings select:active {
+    direction: ltr;
+}
+
+.table__cell.nowrap {
+    white-space: nowrap;
+}
+
+a.phone.people_phone {
+    border-bottom: 1px solid rgba(0,0,0,.2) !important;
+}
+
+a.phone.people_phone:hover {
+    border-bottom: 1px solid #000 !important;
+}
+
+.table__cell .indexLetter {
+    color: #000;
+}
+
+.people__list .table__cell {
+    padding: 0.7rem;
+}
+
+.table__header .table__cell a > span {
+    white-space: nowrap;
+}
+
+.people__selectors .select select {
+    padding-right: 1.8rem;
+}
+
+    /*.photoCell a {*/
+/*    border-bottom: none !important;*/
+/*}*/
+
+/*.photoCell a img {*/
+/*    width: 78px;*/
+/*    height: 78px;*/
+/*    border-radius: 50%;*/
+/*}*/
+
+/*.people__content {*/
+/*    overflow: scroll;*/
+/*}*/
+
+/*.people__content::-webkit-scrollbar {*/
+/*    display: none;*/
+/*}*/
+/*.people__content {*/
+/*    -ms-overflow-style: none;*/
+/*    scrollbar-width: none;*/
+/*}*/
+
+/*.people__filters-mobile .people__tab {*/
+/*    margin-bottom: 1.6rem;*/
+/*}*/
+
+.people__selectors>div .select-selected {
+    width: 22rem;
+    overflow: hidden;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+}
+
+.people__selectors>div .select-selected:before {
+    content: '';
+    position: absolute;
+    background: #fff;
+    height: 100%;
+    width: 1.5rem;
+    border-top-right-radius: 0.5rem;
+    border-bottom-right-radius: 0.5rem;
+    right: 0;
+    top: 0;
+}
+
+.select-items-container div {
+    /*white-space: nowrap;*/
+    overflow: hidden;
+    /*min-height: 2.8rem;*/
+    height: unset;
+    padding-top: 0.5296rem;
+    padding-bottom: 0.5296rem;
+    line-height: 1.7408rem;
+}
+
+.people__selectors>div:first-child .select-selected {
+    padding-right: 2rem;
+    width: 22rem;
+}
+
+@media (max-width: 1349px) {
+    .select select {
+        display: block;
+        background: transparent;
+        position: absolute;
+        top: 0;
+        right: 0;
+        left: 0;
+        bottom: 0;
+        appearance: none;
+        border: none;
+        outline: none;
+        font: inherit;
+        padding-left: 0.8rem;
+        white-space: nowrap;
+        text-overflow: ellipsis;
+    }
+    .select .select-selected {
+        opacity: 1;
+        color: transparent;
+    }
+}
+
+.people__list .table__header .table__cell.active span:after {
+    z-index: 1;
+    transform: translateY(-50%) rotate(180deg);
+}
+
+a.phone.people_phone {
+    cursor: pointer;
+}
+
+.people__selectors .select select {
+    display: block;
+    background: transparent;
+    position: absolute;
+    top: 0;
+    right: 0;
+    left: 0;
+    bottom: 0;
+    appearance: none;
+    border: none;
+    outline: none;
+    font: inherit;
+    padding-left: 0.8rem;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+    line-height: 2.8rem;
+    height: 2.8rem;
+    cursor: pointer;
+}
+.people__selectors .select .select-selected {
+    opacity: 1;
+    color: transparent;
+}
+
+.people__filters .presense {
+    white-space: nowrap;
+}
+.people__filters-group {
+    display: block;
+}
+.people__filters-group .presense {
+    position: absolute;
+    right: .8rem;
+    top: 0;
+}
+.people__filters-group .presense li {
+    margin: 0 !important;
+}
+
+.people__selectors>div .select-selected:before {
+    height: unset;
+}
+.people__selectors .select-label {
+    line-height: 2.8rem;
+    height: 2.8rem;
+}
+
+#SearchInput {
+    color: #000;
+}
+
+/*@media (min-width: 1350px) {*/
+/*    .modal.settings {*/
+/*        display: none;*/
+/*        visibility: hidden;*/
+/*    }*/
+/*}*/
+
+#settingsButton {
+    position: relative;
+}
+#settingsButton.active:after {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    display: block;
+    width: 5px;
+    height: 5px;
+    background: #000;
+    border-radius: 50%;
+}
+
+.people__list .table__cell-mobile .table__cell-name>div:nth-child(2) {
+    -webkit-text-size-adjust: 100%;
+}
+
+.settings select {
+    top: unset !important;
+}
+
+.button {
+    -webkit-appearance: none;
+}
+
+.people__selectors>div .select-selected,
+.people__selectors>div:first-child .select-selected{
+    width: 16rem;
+}
+
+.people__searchbar {
+    max-width: 32rem;
+    flex-grow: 1;
+}
+
+.people__search {
+    margin-bottom: 0.7rem;
+}
+
+.people__search>div {
+    margin-bottom: 0.7rem;
+}
+
+.people__result {
+    opacity: .5;
+    margin-left: 0.8rem;
+}
+
+.selectors-occupation,
+.selectors-photo {
+    margin-right: 2rem;
+}
+
+.selectors-photo .field__value {
+    flex-basis: unset;
+}
+
+.people__list .table__row.work {
+    color: #3667f6;
+}
+
+.people__list .table__row.work a {
+    color: #3667f6;
+    border-color: rgba(54,103,246,.2)!important;
+}
+.people__list .table__row.work a:hover {
+    border-color: rgba(54,103,246,.5)!important;
+}
+
+
+.people__mobile-selectors-photo {
+    display: none;
+}
+
+.people__mobile-selectors-photo > div {
+    margin-top: 0.7rem;
+}
+
+.people__mobile-selectors-photo label {
+    float: none;
+}
+
+@media (max-width: 1350px) {
+    .people__list {
+        margin-top: 0rem;
+    }
+    .people__mobile-selectors-photo {
+        display: block;
+    }
+}
+
+@media (max-width: 767px) {
+    .people__list {
+        margin-top: -0.8rem;
+    }
+    .people__searchbar {
+        max-width: unset;
+    }
+}

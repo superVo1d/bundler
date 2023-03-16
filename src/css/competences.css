@@ -1,0 +1,188 @@
+/* $ID: competences.css, Fri, 7 Sep 2018 15:03:17, Leonid 'n3o' Knyazev $ */
+.competences {
+    position: relative;
+}
+
+.competences__form,
+.competences__used {
+    margin: 0;
+    padding: 0;
+    position: relative;
+}
+
+.competences__list {
+    position: relative;
+}
+.competences__list option[disabled] {
+    display: none;
+}
+
+.competences__add {
+    margin-left: .5em;
+}
+
+
+.competence {
+    /*margin: 0 0 1em 0;*/
+    padding: 0;
+    position: relative;
+}
+
+.competence > div {
+    margin-top: 0.8rem;
+}
+
+.competence .select.select-inline {
+    margin-top: 0;
+    margin-left: 0;
+    margin-bottom: 0.8rem;
+}
+
+.competence__title .green {
+    color: #2E7D32;
+}
+
+.competence__title .red {
+    color: #FF0000;
+}
+
+.competences_view .competence__title {
+    margin: 0;
+    padding: 0 0.5em 0;
+    position: relative;
+}
+
+.competences_edit .competence__title {
+    display: inline-flex;
+    margin-top: 0.8rem;
+    /*padding: .5em 0;*/
+    position: relative;
+}
+.competence__remove {
+    margin-top: 0;
+    margin-bottom: auto;
+    /*margin: 0 0 0 .5em;*/
+    /*padding: 0;*/
+    /*position: relative;*/
+    /*font-size: 11px;*/
+}
+
+.competence__value input,
+.competence__value select {
+    position: relative;
+}
+.competence__value select {
+    font: inherit;
+}
+
+.competence__value input + select,
+.competence__value select + select {
+    margin-left: .5em;
+}
+
+
+/* v2 */
+.competences .group {
+    padding: 0 0 5px 0;
+    position: relative;
+}
+
+.competences .group .group__title {
+    padding: 0 0 5px 0;
+    font-weight: bold;
+}
+
+.competences .group .group__skills {
+    padding: 0 0 10px 0;
+    position: relative;
+}
+
+.competences .group .group__skills .skill {
+    padding: 2px 2px 4px 4px;
+    position: relative;
+    display: flex;
+}
+
+.competences .group .group__skills .skill .skill_name {
+    flex: 1 1 auto;
+}
+
+.competences .group .group__skills .skill .skill_level {
+    padding: 0 4px;
+    flex: 0 0 auto;
+}
+
+.profile__competitions .skill:hover {
+    background-color: rgba(0, 0, 0, .1);
+}
+
+.profile__competitions .skill.matched:hover {
+    background-color: rgba(56, 142, 60, .1);
+}
+
+.profile__competitions .skill.matched .skill_level .current {
+    color: rgba(56, 142, 60, 1);
+}
+
+.profile__competitions .skill.missed:hover {
+    background-color: rgba(211, 47, 47, .1);
+}
+
+.profile__competitions .skill.missed .skill_level .current {
+    color: rgba(211, 47, 47, 1);
+}
+
+.profile__competitions .skill.lower:hover {
+    background-color: rgba(255, 160, 0, .1);
+}
+
+.profile__competitions .skill.lower .skill_level .current {
+    color: rgba(255, 160, 0, 1);
+}
+
+.profile__competitions .skill.greater:hover {
+    background-color: rgba(123, 31, 162, .1);
+}
+
+.profile__competitions .skill.greater .skill_level .current {
+    color: rgba(123, 31, 162, 1);
+}
+
+.profile__competitions .skill.matched .skill_level .required,
+.profile__competitions .skill.missed .skill_level .required,
+.profile__competitions .skill.lower .skill_level .required,
+.profile__competitions .skill.greater .skill_level .required {
+    color: rgba(0, 0, 0, 1);
+}
+
+.button.competences__add {
+    margin: 0 !important;
+    margin-bottom: auto !important;
+}
+
+.competences__form {
+    flex-wrap: wrap !important;
+}
+.competences__form .select {
+    margin-right: 0.8rem !important;
+    margin-bottom: 0.8rem !important;
+}
+
+
+.competence__value select {
+    display: block !important;
+    background: #fff;
+    border-radius: 0.5rem;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+    line-height: 2.8rem;
+    height: 2.8rem;
+    width: 18rem;
+    padding: 0 0.8rem;
+    height: 2.8rem;
+    cursor: pointer;
+    border: none;
+    margin-top: 0.8rem;
+}

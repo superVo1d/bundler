@@ -1,0 +1,15 @@
+require('./js/edit-nav.js');
+require('./js/languages.js');
+require('./js/competences.js');
+require('./js/select.js');
+require('./js/edit-placeholders.js');
+require('./js/edit-textarea.js');
+require('./js/edit-file_docs.js');
+require('./js/edit-file_image.js');
+require('./js/edit-main.js');
+require('./js/chosen.jquery.js');
+require('./js/skills.js');
+require('./js/people_edit_calendar.js');
+require('./js/people_edit_diplomas.js');
+require('./js/people_edit.js');
+require('./js/multiselector.js');

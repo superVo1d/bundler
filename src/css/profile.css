@@ -1,0 +1,25 @@
+.block.block_list > a > h3 {
+    display: inline-block;
+}
+.code__content {
+    width: 100%;
+    max-width: 100%;
+}
+
+.code .code__wrapper {
+    position: relative;
+    width: auto;
+    display: inline-block;
+}
+.code__wrapper .code__img {
+    margin-left: calc(33px + 4rem);
+    margin-right: calc(33px + 4rem);
+    width: 100%;
+}
+
+.code__close {
+    right: calc(33px);
+    top: -1rem;
+    z-index: 1;
+    transform: translateZ(0);
+}

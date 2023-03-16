@@ -1,0 +1,10 @@
+require('./js/calendar_input.js');
+require('./js/likes.js');
+require('./js/nav-btn.js');
+require('./js/qr.js');
+require('./js/tabs.js');
+require('./js/slider.js');
+require('./js/modal.js');
+require('./js/show-more.js');
+require('./js/status.js');
+require('./js/epitaph.js');
