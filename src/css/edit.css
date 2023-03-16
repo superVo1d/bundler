@@ -20,7 +20,7 @@
     display: inline-block;
 }
 
-.button:not(.button_save):not(.button_edit) {
+.button:not(.button_save):not(.button_edit):not(.epitaph__button) {
     margin-left: 0.8rem;
 }
 

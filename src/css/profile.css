@@ -23,3 +23,11 @@
     z-index: 1;
     transform: translateZ(0);
 }
+
+.field__value .edit-lang-block input[type=range].styled-slider.slider-progress, input[type=range].styled-slider.slider-progress {
+    margin: 0 !important;
+}
+
+.field__value .styled-slider.slider-progress {
+    cursor: default;
+}

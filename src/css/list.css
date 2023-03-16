@@ -9,8 +9,27 @@
     direction: ltr;
 }
 
+.table__main {
+    table-layout: fixed;
+}
+
 .table__cell.nowrap {
     white-space: nowrap;
+}
+
+.table__cell {
+    box-sizing: content-box;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    width: calc(10% - 0.43rem);
+}
+
+.table__cell:first-child {
+    width: 1rem;
+}
+
+.table__cell:nth-child(2) {
+    width: 3.3rem;
 }
 
 a.phone.people_phone {

@@ -2999,7 +2999,6 @@ header .nav {
 .people__list .table {
     font-size: 1.12rem;
     line-height: 1.7408rem;
-    display: flex
 }
 
 @media (max-width:1350px) {
